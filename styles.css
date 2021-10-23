@@ -1,0 +1,45 @@
+/* reset css */
+:root {
+  --black: #000;
+  --white: #fff;
+}
+
+* {
+  border: 0;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.logo {
+  fill: var(--white);
+  width: 140px;
+  height: 40px;
+}
+
+.navegacao {
+  display: flex;
+}
+
+.lista-de-navegacao {
+  display: flex;
+  list-style: none;
+}
+
+.lista-de-navegacao li + li {
+  margin-left: 32px;
+}
+
+.lista-de-navegacao__item {
+  font-weight: 600;
+  color: var(--white);
+  text-decoration: none;
+}
